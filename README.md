@@ -1,14 +1,15 @@
 # Evalita2026_MultiPRIDE
 
-Identity, Toxicity, or Complexity? A Language-Specific Feature Selection Approach to Reclamatory Intent Detection
+**Identity, Toxicity, or Complexity? A Language-Specific Feature Selection Approach to Reclamatory Intent Detection**
 
-Houman Rajabi · Fatemeh Ghavidel · Kourosh Ghahremani
+Paper submitted in [EVALITA 2026](https://www.evalita.it/2026/) , Bari, Italy.
 
-Paper submitted to [EVALITA 2026](https://www.evalita.it/2026/) , Bari, Italy.
 
-## Research Problem
+## Research Question 
 
 The central objective  was to **distinguish between offensive and reclamatory uses of slurs in LGBTQ+ discourse** in a multilingual setting ( Italian, Spanish, and English).
+
+## Research Problem
 
 In standard NLP systems, slurs are treated as inherently **hate speech and toxic lexical items**. 
 
@@ -50,13 +51,13 @@ In English, reclaimed usage proved particularly difficult to model. Low recall s
 Reclamation is language- and culture-specific; each language relies on different sociolinguistic cues.
 
 - **Italian:** Reclamation often appears in longer, structured, argumentative texts that explicitly defend identity.
-- 
-  *Failure mode:* the model sometimes confuses formal reports of hate speech with reclamation, learning a writing style rather than true intent.
+  
+  **Failure:** the model sometimes confuses formal reports of hate speech with reclamation, learning a writing style rather than true intent.
 
 - **Spanish:** Reclamation frequently co-occurs with community markers (hashtags, LGBTQ+ terms) that mitigate perceived toxicity.
-- 
-  *Failure mode:* when a slur appears at the beginning of a sentence, its positional salience may override supportive context.
+  
+  **Failure :** when a slur appears at the beginning of a sentence, its positional salience may override supportive context.
 
 - **English:** Reclamation tends to rely on implicit irony and in-group signaling that surface features struggle to capture.
-- 
-  *Failure modes:* models misinterpret first-person pronouns (confusing victims with reclaimers) or over-weight the toxicity of the slur itself.
+  
+  **Failures :** models misinterpret first-person pronouns (confusing victims with reclaimers) or over-weight the toxicity of the slur itself.
