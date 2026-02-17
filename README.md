@@ -1,5 +1,5 @@
 # Evalita2026_MultiPRIDE
-Multilingual Automatic Detection of Reclamation of Slurs in the LGBTQ+ Context
+**Multilingual Automatic Detection of Reclamation of Slurs in the LGBTQ+ Context**
 
 Identity, Toxicity, or Complexity? A Language-Specific Feature Selection Approach to Reclamatory Intent Detection
 
