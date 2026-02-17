@@ -11,7 +11,9 @@ Paper submitted to [EVALITA 2026](https://www.evalita.it/2026/) , Bari, Italy.
 
 This project addresses the challenge of detecting reclaimed slurs in LGBTQ+ discourse across Italian, Spanish, and English.
 
-In standard NLP systems, slurs are treated as inherently hate speech and toxic lexical items. However, within marginalized communities, the same terms may be reappropriated to express solidarity, pride, or identity affirmation. The meaning of these expressions depends on who's speaking and why, discourse context, and sociolinguistic cues. This is **the reclamation paradox**: the word is toxic, but the intent is empowering.
+In standard NLP systems, slurs are treated as inherently hate speech and toxic lexical items. 
+However, within marginalized communities, the same terms may be reappropriated to express solidarity, pride, or identity affirmation. The meaning of these expressions depends on who's speaking and why, discourse context, and sociolinguistic cues. 
+This is **the reclamation paradox**: the word is toxic, but the intent is empowering.
 
 When models treat slur words as offensive, they may misinterpret in-group reclamation and produce false positives that disproportionately affect marginalized communities and silences the community it claims to protect.
 
@@ -23,7 +25,7 @@ The central objective of this work was to distinguish between offensive and recl
 We implemented a hybrid modeling framework with two parallel components:
 
 - **Stream A:** Monolingual BERT encoders (bert-base-uncased, dccuchile/bert-base-spanish-wwm-uncased, dbmdz/bert-base-italian-uncased) for contextual semantic representations.
-- 
+  
 - **Stream B:** 61 handcrafted sociolinguistic features, including morphosyntactic metrics, sentiment–toxicity dynamics, and identity markers.
 
 A Random Forest model was used to rank features independently for each language, enabling language-specific feature selection.
