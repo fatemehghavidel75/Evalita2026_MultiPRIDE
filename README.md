@@ -1,5 +1,4 @@
 # Evalita2026_MultiPRIDE
-**Multilingual Automatic Detection of Reclamation of Slurs in the LGBTQ+ Context**
 
 Identity, Toxicity, or Complexity? A Language-Specific Feature Selection Approach to Reclamatory Intent Detection
 
@@ -9,15 +8,18 @@ Paper submitted to [EVALITA 2026](https://www.evalita.it/2026/) , Bari, Italy.
 
 ## Research Problem
 
-This project addresses the challenge of detecting reclaimed slurs in LGBTQ+ discourse across Italian, Spanish, and English.
+The central objective  was to **distinguish between offensive and reclamatory uses of slurs in LGBTQ+ discourse** in a multilingual setting ( Italian, Spanish, and English).
 
-In standard NLP systems, slurs are treated as inherently hate speech and toxic lexical items. 
-However, within marginalized communities, the same terms may be reappropriated to express solidarity, pride, or identity affirmation. The meaning of these expressions depends on who's speaking and why, discourse context, and sociolinguistic cues. 
+In standard NLP systems, slurs are treated as inherently **hate speech and toxic lexical items**. 
+
+However, within marginalized communities, the same terms may be reappropriated to express **solidarity, pride, or identity affirmation**. 
+
+The meaning of these expressions depends on **who's speaking and why, discourse context, and sociolinguistic cues**. 
+
 This is **the reclamation paradox**: the word is toxic, but the intent is empowering.
 
-When models treat slur words as offensive, they may misinterpret in-group reclamation and produce false positives that disproportionately affect marginalized communities and silences the community it claims to protect.
+When models treat slur words as offensive, they may **misinterpret in-group reclamation** and **produce false positives** and **silences the community**.
 
-The central objective of this work was to distinguish between offensive and reclamatory uses of slurs in a multilingual setting, and to investigate whether language-specific sociolinguistic patterns influence model performance.
 
 
 ## Methodology
